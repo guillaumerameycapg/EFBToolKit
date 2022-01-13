@@ -5,7 +5,7 @@ public struct EFBToolKit {
     }
 }
 
-protocol EFBModule {
+public protocol EFBModule {
   var icon: String { get set }
   var title: String { get set }
   var subtitle: String { get set }
